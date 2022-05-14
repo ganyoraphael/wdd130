@@ -1,0 +1,29 @@
+img {
+    float:right;
+    width: 350px;
+    padding:15px;
+}
+
+section {
+    margin: 50px;
+    background-color: lightgray;
+    border: solid 2px black;
+    border-radius: 5px;
+    color: purple;
+}
+
+.clear {
+    clear: both;
+}
+h1 {
+    font-size: 2em;
+}
+.first {
+    margin: 20px 50px;
+}
+.larger {
+    font-size: 3em;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
