@@ -1,0 +1,62 @@
+.desk {
+    width: 300px;
+    border-radius: 50%;
+    border: solid 20px black;
+
+    width: 300px;
+    border-radius: 50%;
+    border: solid 20px black;
+
+
+   
+  
+    margin-right:40px;
+}
+
+.graphic {
+    width: 300px;
+    border-radius: 50%;
+    border: solid 20px black;
+
+    width: 300px;
+    border-radius: 50%;
+    border: solid 20px black;
+
+    margin-right:40px;
+   
+}
+
+.person {
+    width: 300px;
+    border-radius: 50%;
+    border: solid 20px black;
+
+    margin-right:40px;
+    border-image: center;
+    
+    
+ 
+
+    
+ 
+    
+ 
+
+}
+
+#second {
+    background-color: gray;
+}
+
+.circle {
+    width: 100%;
+    gap: 50%;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+   
+    
+   
+}
