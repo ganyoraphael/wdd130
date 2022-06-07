@@ -1,13 +1,13 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
+  --primary-color: #c8d5b9   ;
+  --secondary-color: #696d7d ;
+  --accent1-color: #11472d;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
@@ -35,7 +35,9 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  
 }
+
 img {
   display: block;
   margin: 0 auto;
