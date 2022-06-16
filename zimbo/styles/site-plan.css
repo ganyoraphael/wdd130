@@ -26,6 +26,10 @@ Fonts are separated by a | */
   --nav-hover-background-color: #396E94;
 }
 
+img {
+  width: 15em;
+
+}
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
