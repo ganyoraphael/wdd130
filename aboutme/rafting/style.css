@@ -84,11 +84,11 @@ body {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: beige;
+    background-color: #098DC8ff;
 }
 
 nav a:hover {
-    background-color: powderblue;
+    background-color: rgb(12, 91, 101);
     color: antiquewhite;
 }
 
@@ -126,7 +126,7 @@ nav a:hover {
 
 
 footer {
-    background-color: rgb(255, 205, 205);
+    background-color: #098DC8ff;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -135,7 +135,7 @@ footer {
 }
 
 .home-title {
-    color: brown;
+    color: rgb(144, 205, 235);
     font-size: 2em;
     margin-top: 10px;
 }
@@ -145,7 +145,7 @@ h4 {
 }
 
 .msg {
-    background-color: deeppink;
+    background-color: #98ECFFff;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
@@ -157,7 +157,7 @@ h4 {
 
 
 .msg h2 {
-    color: aqua;
+    color: black;
 }
 
 .msg p {
@@ -175,7 +175,7 @@ footer a {
 }
 
 footer a:hover {
-    color: rgb(38, 111, 87);
+    color: rgb(207, 12, 90);
 }
 
 .logo {
@@ -301,3 +301,67 @@ section img {
         margin-top: 25px;
     }
 }
+
+
+#whitewater{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#wr1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+
+#title-q {
+    color: rgb(4, 29, 113);
+    font-size: 2em;
+    text-align: center;
+}
+
+
+#wwrpic {
+    width: 100%;
+}
+
+#in-box {
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+#headname {
+    display: block;
+    text-align: bottom;
+    background-color: rgb(5, 62, 43);
+    padding: 30px;
+    margin-top: -10px;
+}
+
+#questions-with-answers {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 2fr 1fr;
+    row-gap: 100px;
+}
+
+
+.question {
+    font-size: 1.3em;
+}
+
+.quest {
+    margin: auto auto;
+    text-align: left;
+    padding-right: 25px;
+    margin-left: 25px;
+}
+
+.p {
+    margin: auto auto;
+}
+.p img{
+    max-width: 100%;
+}
+
