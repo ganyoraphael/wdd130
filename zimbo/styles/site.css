@@ -34,20 +34,6 @@ nav a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 h1, h2, h3, h4 {
     font-family: 'Macondo', cursive;
 }
@@ -104,6 +90,8 @@ body {
 h2 {
     margin: 0;
 }
+
+
 
 header {
     display: grid;
@@ -162,12 +150,15 @@ h4 {
 
 #zim-msg h1 {
     text-align: center;
+    font-size: 30px;
 }
 
 #zim-msg h4 {
     text-align: center;
-    color: rgb(25, 159, 216);
+    color: rgb(53, 223, 15);
+    font-size: 25px;
 }
+
 
 
 .training {
@@ -186,6 +177,7 @@ h4 {
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+    
 }
 
 
@@ -205,8 +197,9 @@ h4 {
 
 .solutions p {
     color: black;
-    font-size: .8em;
-    padding-bottom: 15px;
+    font-size: 30px;
+    padding-bottom: 25px;
+    text-align: center;
 }
 
 
@@ -216,8 +209,9 @@ h4 {
 
 .training p {
     color: black;
-    font-size: .8em;
-    padding-bottom: 15px;
+    font-size: 30px;
+    padding-bottom: 25px;
+    text-align: center;
 }
 
 
@@ -227,9 +221,11 @@ h4 {
 
 .security p {
     color: black;
-    font-size: .8em;
-    padding-bottom: 15px;
+    font-size: 30px;
+    padding-bottom: 25px;
+    text-align: center;
 }
+
 
 
 .searchbox{
@@ -310,14 +306,7 @@ h4 {
     transform: scale(1.1);
   }
 
-
-
-
-
-
-
-
-  h2 {
+h2 {
     font-size: 25px;
     font-weight: normal;
     text-transform: uppercase;
@@ -385,6 +374,7 @@ h4 {
   .title_serve { 
     text-align: center;
   }
+  
 
 
 
@@ -452,7 +442,7 @@ h4 {
     padding: 10px 0 10px 20px;
     border: 5px solid rgba(0, 0, 0, 0.3);
     box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
-    color: #ffffff;
+    color: black;
     border-radius: 50px;
   }
   
