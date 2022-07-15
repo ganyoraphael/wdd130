@@ -229,7 +229,7 @@ h4 {
 
 
 .searchbox{
-    width:250px;  
+    width: 250px;  
     text-align:right;
 }
       
@@ -314,7 +314,6 @@ h2 {
 
   .intro-txt {
     font-size: 18px;
-    
     font-style: italic;
     margin-top: 0;
   }
